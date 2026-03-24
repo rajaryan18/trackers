@@ -123,6 +123,7 @@ nav:
   - Trackers:
     - Comparison: trackers/comparison.md
     - SORT: trackers/sort.md
+    - DeepSORT: trackers/deepsort.md
     - ByteTrack: trackers/bytetrack.md
     - OC-SORT: trackers/ocsort.md
   - API Reference:

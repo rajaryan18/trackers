@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from trackers.annotators.trace import MotionAwareTraceAnnotator
 from trackers.core.bytetrack.tracker import ByteTrackTracker
+from trackers.core.deepsort.tracker import DeepSORTTracker
 from trackers.core.ocsort.tracker import OCSORTTracker
 from trackers.core.sort.tracker import SORTTracker
 from trackers.datasets.download import download_dataset
@@ -27,6 +28,7 @@ __all__ = [
     "Dataset",
     "DatasetAsset",
     "DatasetSplit",
+    "DeepSORTTracker",
     "HomographyTransformation",
     "IdentityTransformation",
     "MotionAwareTraceAnnotator",

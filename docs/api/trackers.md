@@ -12,6 +12,10 @@
 
 ::: trackers.core.ocsort.tracker.OCSORTTracker
 
+## DeepSORT
+
+::: trackers.core.deepsort.tracker.DeepSORTTracker
+
 ## Utilities
 
 ::: trackers.utils.converters.xyxy_to_xcycsr
